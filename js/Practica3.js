@@ -38,3 +38,103 @@
 // 13
 // 14
 // FizzBuzz
+
+//-------------DESARROLO EJERCICIOS-----------------
+
+
+//EJERCICIO1
+// let nombreUsuario = prompt("Ingrese su nombre")
+// console.log(`hola ${nombreUsuario}`)
+
+
+
+//EJERCICIO2
+// let numero1 = +prompt("Ingrese el primer numero")
+// let numero2 = +prompt("ingrese el segundo numero")
+//  if(numero1<numero2) {
+//     console.log(`el numero mayor es ${numero2}`)
+//  } else {
+//     console.log(`el numero mayor es ${numero1}`)
+//  }
+
+
+
+//EJERCICIO3
+// let numero1 = +prompt("ingrese el primer numero")
+// let numero2 = +prompt("ingrese el segundo numero")
+// let numero3 = +prompt("ingrese el tercer numero")
+
+// if (numero1 > numero2 && numero1 > numero3) {
+//     console.log(`el numero ${numero1} es el mayor de los tres`)
+// } else if (numero2 > numero1 && numero2 > numero3) {
+//     console.log(`el numero ${numero2} es el mayor`)
+// } else if (numero3 > numero1 && numero3 > numero2) {
+//     console.log(`el numero ${numero3} es el mayor`)
+// }
+
+
+
+//EJERCICIO4
+// let contador = +prompt("ingrese su numero")
+// while (contador>=0) {
+//     console.log(`${contador}`)
+//     contador--
+// }
+
+
+
+
+//EJERCICIO5
+
+//Simular un punto de venta donde el usuario primero tenga que ingresar cuantos productos va a comprar el cliente, despues que el usuario tenga que ingresar que producto compro por ejemplo zapatilla y por separado el precio, al final que se muestre en consola todos los productos que el usuario compro con su respectivo precio y una suma del total de la compra
+
+// let cantProductos = +prompt("ingrese cuantos productos quiere comprar")
+// let total = 0
+// for (let contador = 1; contador <= cantProductos; contador++) {
+
+// let producto = +prompt(`Escoja los productos que quiere comprar 
+// 1 - Zapatillas
+// 2 - Remera
+// 3 - Pantalon
+// 4 - Gorra
+// 5- Reloj`)
+
+//     switch (producto) {
+//         case 1:
+//             let precioZ = 20000
+//             console.log(`Zapatillas $${precioZ}`)
+//             total += precioZ
+//             break;
+//         case 2:
+//             let precioR = 6000
+//             console.log(`Remera $${precioR}`)
+//             total += precioR
+//             break;
+//         case 3:
+//             let precioP = 12000
+//             console.log(`Pantalon $${precioP}`)
+//             total += precioP
+//             break;
+//         case 4:
+//             let precioG = 5000
+//             console.log(`Gorra $${precioG}`)
+//             total += precioG
+//             break;
+//         case 5:
+//             let precioS = 8000
+//             console.log(`Reloj $${precioS}`)
+//             total += precioS
+//             break;
+//         default:
+//             alert("ingrese un producto de la lista")
+//             break;
+//     }
+// }
+// console.log(`Total = $${total}`)
+
+
+
+//EJERICIO6
+
+
+
