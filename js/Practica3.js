@@ -86,8 +86,6 @@
 
 //EJERCICIO5
 
-//Simular un punto de venta donde el usuario primero tenga que ingresar cuantos productos va a comprar el cliente, despues que el usuario tenga que ingresar que producto compro por ejemplo zapatilla y por separado el precio, al final que se muestre en consola todos los productos que el usuario compro con su respectivo precio y una suma del total de la compra
-
 // let cantProductos = +prompt("ingrese cuantos productos quiere comprar")
 // let total = 0
 // for (let contador = 1; contador <= cantProductos; contador++) {
@@ -135,6 +133,19 @@
 
 
 //EJERICIO6
+// for (let contador = 1; contador<=100; contador++) {
+
+//     if(contador % 3 === 0 && contador %5 === 0) {
+//         console.log("Buzzfizz");
+//     } else if (contador % 3 === 0){
+//         console.log ("Fizz");
+//     } else if (contador % 5 === 0 ) {
+//         console.log("Buzz");
+//     } else {
+//         console.log(`${contador}`)
+//     }
+// }
 
 
 
+//TAREA TERMINADA
