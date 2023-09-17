@@ -5,6 +5,10 @@ Una vez ingresado el puesto laboral, el usuario deberá ingresar el sueldo perci
 Deberemos elegir el bono que cobrará cada uno de los empleados y en caso de que la sumatoria de sueldo + bono sea mayor a 770000 deberemos extraer un 25% del total del sueldo (simulando imp a ganancias).*/
 
 
+//gerente 800000
+//gerente de ventas 700000
+//administrador 450000
+
 
 let puestoTrabajo = prompt("ingrese su puesto")
 console.log(puestoTrabajo)
